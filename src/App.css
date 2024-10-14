@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+.screen{
+    max-width: 340px;
+    margin: 20px auto;
+    border: 1px solid #afafaf;
+    min-height: 80vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    border-bottom: 1px solid #afafaf;
+    position: relative;
+}
+
+.nav-main h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav-main button{
+    position: absolute;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-main button svg{
+    width: 25px;
+    height: 25px;
+}
+
+.nav-main button .badge{
+    aspect-ratio: 1/1;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 3px;
+    border: 0.5px solid #afafaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge p{
+    font-size: 12px;
+}
+
+.menu-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+}
+
+.menu-card-details{
+    display: flex;
+    gap: 10px;
+}
+
+.menu-card--img{
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.menu-card--text h1{
+    font-size: 20px;
+}
+
+.menu-card--text p{
+    font-size: 15px;
+}
+
+.menu-card-button button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #afafaf;
+    cursor: pointer;
+}
+
+.menu-card-button--dynamic{
+    display: flex;
+    gap:5px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #afafaf;
+    cursor: pointer;
+}
+
+.menu-card-button--dynamic button{
+    background-color: none;
+    border: none;
+    padding: 0px;
+}
+
+.menu-card-button--dynamic p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+
+
