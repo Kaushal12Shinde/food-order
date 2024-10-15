@@ -1,8 +1,6 @@
 import { useSelector, useDispatch } from "react-redux"
 import { RootState } from "../redux/store"
-import { addItem, decreaseQuantiy, increaseQuantity } from "../redux/cartSlice";
-import { useNavigate } from "react-router-dom";
-
+import { decreaseQuantiy, increaseQuantity } from "../redux/cartSlice";
 
 
 const Checkout = () => {

@@ -2,7 +2,6 @@ import MenuCard from "./MenuCard"
 import { useSelector } from "react-redux"
 import { RootState } from "../redux/store";
 import { Link , useNavigate } from "react-router-dom"; 
-import Checkout from "./Checkout";
 
 const Home = () => {
 
