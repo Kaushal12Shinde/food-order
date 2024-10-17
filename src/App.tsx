@@ -2,6 +2,7 @@ import Home from './component/Home'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Checkout from './component/Checkout'
+import Navbar from './component/Navbar'
 
 const appRouter = createBrowserRouter([
   {
@@ -12,11 +13,15 @@ const appRouter = createBrowserRouter([
     path: '/checkout',
     element: <Checkout/>,
   },
+  {
+    path:'/newpage',
+    element:<Navbar/>,
+  }
 ])
 
 function App() {
   return (
-    <div  className='screen'>
+    <div>
       <RouterProvider router={appRouter} />
     </div>
   )
